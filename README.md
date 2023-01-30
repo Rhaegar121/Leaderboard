@@ -27,8 +27,6 @@
 # 📖 Leaderboard <a name="about-project"></a>
 
 <div align="center">
-  <img src="murple_logo.png" alt="project sample" width="700"  height="auto" />
-  <br/>
 
   <h3><b>Leaderboard</b></h3>
 
