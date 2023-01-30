@@ -65,7 +65,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- live Demo link will appear after the project is fully deployed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
