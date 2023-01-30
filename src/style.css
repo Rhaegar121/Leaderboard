@@ -1,0 +1,66 @@
+main {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  margin: 0;
+}
+
+button {
+  padding: 4px 10px;
+  border: 3px solid #000;
+  background-color: #fff;
+}
+
+.container .recent {
+  width: 45%;
+}
+
+.container .recent h2 {
+  float: left;
+}
+
+.container .recent [type="reset"] {
+  float: right;
+}
+
+.container .recent .scores {
+  clear: both;
+  margin-top: 48px;
+  border: 3px solid #000;
+  padding-left: 0;
+}
+
+.container .recent .scores li {
+  list-style: none;
+  padding: 5px;
+}
+
+.container .recent .scores li:nth-child(2n) {
+  background-color: #dadada;
+}
+
+.container .add {
+  width: 40%;
+}
+
+.container .add form {
+  margin-top: 20px;
+}
+
+.container .add form input {
+  margin-bottom: 15px;
+  width: 96.4%;
+  height: 25px;
+  border: 3px solid #000;
+}
+
+.container .add form [type="submit"] {
+  float: right;
+}
