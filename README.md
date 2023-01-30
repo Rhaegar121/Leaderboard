@@ -24,19 +24,19 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 To Do List <a name="about-project"></a>
+# 📖 Leaderboard <a name="about-project"></a>
 
 <div align="center">
-  <img src="sample.png" alt="project sample" width="700"  height="auto" />
+  <img src="murple_logo.png" alt="project sample" width="700"  height="auto" />
   <br/>
 
-  <h3><b>To Do List</b></h3>
+  <h3><b>Leaderboard</b></h3>
 
 </div>
 
-> "To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. Mainly built with javascript in Microverse Module 2.
+> The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 
-**To Do List** is a HTML, CSS and JavaScript based project.
+**Leaderboard** is a HTML, CSS and JavaScript based project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -67,7 +67,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://rhaegar121.github.io/To-Do-list/dist/)
+- [Live Demo Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,15 +84,17 @@ Local Machine, Git, Text Editor (VS Code preferably)
 
 ### Setup
 
-Checkout the project repository <a href="https://github.com/Rhaegar121/To-Do-list">here</a>
+Checkout the project repository <a href="https://github.com/Rhaegar121/Leaderboard">here</a>
 
 ### Install
 
 You can use the repository HTTPS or SSH urls to clone the project on your local machine or download the ZIP folder and extract its contents.
+Run npm install to install the dev dependencies for linters and webpack.
+Run npm build to build the application with webpack .
 
 ### Usage
 
-Run the index.html file in the root directory of the project using any browser.
+Run npm run start to start the development server.
 
 ### Run tests
 
@@ -118,16 +120,14 @@ Use Github pages for free and secure deployment.
 - Twitter: [@twitterhandle](https://twitter.com/20Rhaegar)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kaung-myat-kyaw-391720227)
 
-👤 **Emeka Emmanuel**
-
-- GitHub: [@emekaemmanuel](https://github.com/emekaemmanuel)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/emeka-ugboaja-167820226)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
+
+- **Using API**
+- **Final Styling**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
