@@ -27,6 +27,8 @@
 # 📖 Leaderboard <a name="about-project"></a>
 
 <div align="center">
+  <img src="leaderboard screenshot.jpg" alt="project sample" width="700"  height="auto" />
+  <br/>
 
   <h3><b>Leaderboard</b></h3>
 
@@ -58,6 +60,7 @@
 - **Single Page Application**
 - **ES6 syntax**
 - **Webpack**
+- **API**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,15 +120,6 @@ Use Github pages for free and secure deployment.
 - GitHub: [@githubhandle](https://github.com/Rhaegar121)
 - Twitter: [@twitterhandle](https://twitter.com/20Rhaegar)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kaung-myat-kyaw-391720227)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- **Using API**
-- **Final Styling**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
