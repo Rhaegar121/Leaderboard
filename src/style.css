@@ -18,6 +18,15 @@ button {
   background-color: #fff;
 }
 
+button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+button:active {
+  border: 1px solid #000;
+}
+
 .container .recent {
   width: 45%;
 }
