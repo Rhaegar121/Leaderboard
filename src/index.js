@@ -1,11 +1,23 @@
 import './style.css';
+import getScore from './getScore.js';
+import postScore from './postScore.js';
 
-const scores = document.querySelector('.scores');
-scores.innerHTML = `
-<li>Name: 100</li>
-<li>Name: 20</li>
-<li>Name: 50</li>
-<li>Name: 78</li>
-<li>Name: 125</li>
-<li>Name: 77</li>
-<li>Name: 42</li>`;
+const form = document.querySelector('form');
+const refresh = document.querySelector('#refresh');
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const formData = new FormData(e.target);
+  const score = {
+    user: formData.get('name'),
+    score: formData.get('score'),
+  };
+  postScore(score).then(() => {
+    e.target.reset();
+    getScore();
+  });
+});
+
+refresh.onclick = () => {
+  getScore();
+};
