@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
 
-:root {
-  --text-color: #8B0000;
-  --border-color: #B22222;
-  --background-color: #ffe5e5;
-}
-
 ::-webkit-scrollbar {
   width: 7px;
 }
@@ -17,6 +11,12 @@
 ::-webkit-scrollbar-thumb {
   background: var(--text-color);
   border-radius: 80px;
+}
+
+:root {
+  --text-color: #8b0000;
+  --border-color: #b22222;
+  --background-color: #ffe5e5;
 }
 
 * {
